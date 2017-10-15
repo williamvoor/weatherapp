@@ -13,5 +13,5 @@ phases:
 artifacts:
   files:
     - lambda-functions/receive/*
-	- lambda-functions/aggregate/*
+    - lambda-functions/aggregate/*
   discard-paths: yes
