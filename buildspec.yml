@@ -14,4 +14,4 @@ artifacts:
   files:
     - lambda-functions/receive/*
     - lambda-functions/aggregate/*
-  discard-paths: yes
+  discard-paths: no
