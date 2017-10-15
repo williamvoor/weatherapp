@@ -1,0 +1,17 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - printenv
+  build:
+    commands:
+      - npm install --prefix lambda-functions/receive
+  post_build:
+    commands:
+
+artifacts:
+  files:
+    - lambda-functions/receive/*
+	- lambda-functions/aggregate/*
+  discard-paths: yes
